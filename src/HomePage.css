@@ -1,5 +1,7 @@
-/* .Home-greeting {
-} */
+.Home-greeting {
+    margin-top: 150px;
+    z-index: 10;
+}
 
 .Home-header {
     font: 50px;

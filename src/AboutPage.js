@@ -3,7 +3,7 @@ import './AboutPage.css';
 
 function AboutPage() {
     return (
-        <div className="About">
+        <div className="About-page">
             <h1 className="About-header">This Be The About Page.</h1>
             <p className="About-body">
                 this be crap we can figure out what it says later.

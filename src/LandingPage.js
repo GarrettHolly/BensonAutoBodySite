@@ -3,7 +3,7 @@ import './LandingPage.css';
 
 function LandingPage() {
     return (
-        <div className="LandingPage">
+        <div className="Landing-page">
             <h1 className="Landing-header">This Be The Landing Page.</h1>
             <p className="Landing-body">
                 this be crap we can figure out what it says later.

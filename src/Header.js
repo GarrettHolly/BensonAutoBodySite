@@ -1,12 +1,18 @@
 import React from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom';
+import logo from './assets/gifLogo.gif';
 
 function Header() {
     return (
         <div className="Header">
             <h2 className="Header-title">
-                <Link to="/">
+                <img
+                    className="Gif-logo"
+                    src={logo}
+                    alt="Benson AutoBody Logo"
+                />
+                <Link to="/" style={{ textDecoration: 'none' }}>
                     <button className="Header-title">Benson AutoBody</button>
                 </Link>
             </h2>
