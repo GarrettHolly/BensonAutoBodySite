@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom';
 import logo from './assets/gifLogo.gif';
+import FaceBookButton from './Facebook';
 
 function Header() {
     return (
@@ -36,6 +37,11 @@ function Header() {
                         <Link to="/PicturesPage">
                             <button className="Navigation-buttons">
                                 Pictures
+                            </button>
+                        </Link>
+                        <Link to="/Facebook" target="_blank">
+                            <button className="Navigation-buttons">
+                                <FaceBookButton />
                             </button>
                         </Link>
                     </li>

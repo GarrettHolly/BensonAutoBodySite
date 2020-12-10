@@ -8,42 +8,44 @@ function HomePage() {
             <p className="Home-body">
                 this be crap, we can figure out what it says later.
             </p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
-            <p>Text for scroll testing</p>
+            <center>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+                <p>Text for scroll testing</p>
+            </center>
         </div>
     );
 }

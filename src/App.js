@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Header from './Header';
@@ -26,6 +25,14 @@ function App() {
                         path="/PicturesPage"
                         exact
                         component={PicturesPage}
+                    />
+                    <Route
+                        path="/Facebook"
+                        component={() => {
+                            window.location.href =
+                                'https://www.facebook.com/bensonautobodynglass';
+                            return null;
+                        }}
                     />
                     {/* <Route path="/Profile" component={Profile} /> */}
                     {/* <Cart initialItems={initialItems} /> */}

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid rgb(255, 255, 255, 1);
+    border-bottom: 1px solid rgb(39, 58, 125, 1);
     backdrop-filter: blur(5px);
     position: fixed;
     right: 0;
@@ -20,26 +20,39 @@
     padding-left: 10px;
     border: none;
     background: none;
-    color: #bb86fc;
+    color: rgb(153, 153, 153);
     font-size: 25px;
     font-weight: bold;
+    outline: none;
+}
+.Header-title:hover {
+    cursor: pointer;
+    color: rgb(39, 58, 125, 1);
 }
 
 .Navigation-buttons {
-    background-color: #141414;
+    background: rgb(20, 20, 20);
     border: none;
     margin-left: 5px;
-    color: #bb86fc;
+    color: rgb(153, 153, 153);
     display: inline-block;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    opacity: 0.95;
+    transition: opacity 0.5s;
+}
+
+.Navigation-buttons:hover {
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 0.5s;
+    color: rgb(39, 58, 125, 1);
 }
 
 ul li {
     list-style: none;
     display: inline;
     margin: 0px 12px 0px 0px;
-}
-
-.Gif-logo {
 }
