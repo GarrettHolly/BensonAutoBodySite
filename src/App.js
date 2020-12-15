@@ -8,6 +8,7 @@ import DirectionsPage from './DirectionsPage';
 import PicturesPage from './PicturesPage';
 
 function App() {
+    require('dotenv').config();
     return (
         <Router>
             <div className="theme-dark">

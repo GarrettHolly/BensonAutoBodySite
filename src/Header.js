@@ -14,7 +14,9 @@ function Header() {
                     alt="Benson AutoBody Logo"
                 />
                 <Link to="/" style={{ textDecoration: 'none' }}>
-                    <button className="Header-title">Benson AutoBody</button>
+                    <button className="Header-title">
+                        Benson AutoBody & Glass
+                    </button>
                 </Link>
             </h2>
 

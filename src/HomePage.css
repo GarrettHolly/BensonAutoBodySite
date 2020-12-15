@@ -12,3 +12,79 @@
     font: 30px;
     text-align: center;
 }
+
+.Feature-row-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: top;
+    background-color: #9ba4b4;
+}
+
+.Location-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 20px;
+}
+
+.Location-name {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+}
+
+.contact-hours-style {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Location-address {
+}
+
+.Location-contact {
+}
+
+.Location-hours {
+}
+
+.Address-text {
+}
+
+.Phone-text {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.Phone-number {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Hours-of-operation {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.Week-days {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.Holiday-disclaimer {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.Map {
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
