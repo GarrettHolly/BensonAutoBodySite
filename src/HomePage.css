@@ -19,6 +19,17 @@
     justify-content: center;
     vertical-align: top;
     background-color: #9ba4b4;
+    padding: 20px;
+    margin-bottom: 100px;
+    color: #394867;
+    border-radius: 5px;
+}
+
+.Feature-row-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .Location-info {
@@ -48,6 +59,7 @@
 }
 
 .Location-hours {
+    margin-top: 30px;
 }
 
 .Address-text {
@@ -87,4 +99,8 @@
 .Map {
     margin-top: 5px;
     margin-bottom: 3px;
+}
+
+h1 {
+    margin-bottom: 0;
 }

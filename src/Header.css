@@ -31,7 +31,7 @@
 }
 
 .Navigation-buttons {
-    background: #f1f6f9;
+    background: rgba(241, 246, 249, 0);
     border: none;
     margin-left: 5px;
     color: #394867;
@@ -51,7 +51,7 @@
     color: #14274e;
 }
 
-img {
+.static-logo {
     display: block;
     max-width: 150px;
     max-height: 380px;

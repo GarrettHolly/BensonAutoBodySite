@@ -67,31 +67,29 @@ function HomePage() {
                     ></iframe>
                 </div>
             </div>
-            <div>
-                <h1 className="Home-header">Places for Reviews.</h1>
-            </div>
-
-            <div
-                class="shop-review-box"
-                id="sf-472039"
-                reviews-enabled="1"
-                widget-size="m"
-            >
-                <p>
-                    <a
-                        rel="nofollow"
-                        href="https://www.carwise.com/auto-body-shops/benson-autobody-inc-benson-az-85602/472039"
-                        target="_blank"
-                        title="Check out Benson Autobody, Inc. on carwise.com"
-                    >
-                        Benson Autobody, Inc.
-                    </a>
-                    - Find our
-                    <a rel="nofollow" href="https://www.carwise.com">
-                        Auto Body Shop
-                    </a>
-                    on carwise.com
-                </p>
+            <div className="feature-row-two">
+                <div
+                    class="shop-review-box"
+                    id="sf-472039"
+                    reviews-enabled="1"
+                    widget-size="m"
+                >
+                    <p>
+                        <a
+                            rel="nofollow"
+                            href="https://www.carwise.com/auto-body-shops/benson-autobody-inc-benson-az-85602/472039"
+                            target="_blank"
+                            title="Check out Benson Autobody, Inc. on carwise.com"
+                        >
+                            Benson Autobody, Inc.
+                        </a>
+                        - Find our
+                        <a rel="nofollow" href="https://www.carwise.com">
+                            Auto Body Shop
+                        </a>
+                        on carwise.com
+                    </p>
+                </div>
             </div>
         </div>
     );

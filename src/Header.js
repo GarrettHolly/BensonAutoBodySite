@@ -1,18 +1,20 @@
 import React from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom';
-import logo from './assets/gifLogo.gif';
+import logo from './assets/staticLogo.png';
 import FaceBookButton from './Facebook';
 
 function Header() {
     return (
         <div className="Header">
             <h2 className="Header-title">
-                <img
-                    className="Gif-logo"
-                    src={logo}
-                    alt="Benson AutoBody Logo"
-                />
+                <Link to="/HomePage">
+                    <img
+                        className="static-logo"
+                        src={logo}
+                        alt="Benson AutoBody Logo"
+                    />
+                </Link>
                 <Link to="/" style={{ textDecoration: 'none' }}>
                     <button className="Header-title">
                         Benson AutoBody & Glass
