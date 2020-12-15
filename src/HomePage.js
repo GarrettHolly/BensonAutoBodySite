@@ -62,7 +62,7 @@ function HomePage() {
                         width="600"
                         height="400"
                         frameborder="0"
-                        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAnPWzkI24YaibPRrMyouR0Fa6UEKC-rHw&q=place_id:ChIJQz43T98C14YRZO5TITrMjaE"
+                        src="https://www.google.com/maps/embed/v1/place?key=nokeyhereq=place_id:ChIJQz43T98C14YRZO5TITrMjaE"
                         allowfullscreen
                     ></iframe>
                 </div>
